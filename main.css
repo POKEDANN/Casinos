@@ -1,0 +1,13 @@
+#dice {
+  font-size: 320px;
+}
+#dice:hover {
+  cursor: pointer;
+}
+
+#diceDos {
+  font-size: 320px;
+}
+#diceDos:hover {
+  cursor: pointer;
+}
