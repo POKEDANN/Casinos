@@ -1,5 +1,8 @@
+body{background-color: black !important; color: #fff !important;}
+
 .dice {
   font-size: 320px;
+  color: #319e9d;
 }
 .dice:hover {
   cursor: pointer;
@@ -11,3 +14,5 @@
 .diceDos:hover {
   cursor: pointer;
 }
+
+.ayuda{display: none;}
