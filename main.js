@@ -1,12 +1,12 @@
 //aqui empieza el casino
-var casino = alert("Bienvenido a Casinito");
+alert("Bienvenido a Casinito");
 var apuesta = prompt("Escribe tu apuesta");
 function numeroRandom(min, max) {
     return Math.round(Math.random() * (max - min) + min);
 }
 var dadoUno = numeroRandom(1,6);
 alert("el dadoUno salio " + dadoUno);
-if(dadoUno == 2 || dadoUno == 4 || dadoUno == 6){
+if(dadoUno % 2 === 0){
 	alert("felicidades, va el segundo tiro");
 	var dadoDos = numeroRandom(1,6);
 	alert("el dadoDos salio " + dadoDos);
