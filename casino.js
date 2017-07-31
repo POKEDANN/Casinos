@@ -11,7 +11,6 @@ var actualDice = 0;  //te dice el dado actual, obtenidos por la clase dice
 var tagDices = null; //cada clase dice la guarda aqui y la muestra
 
 alert("Bienvenido a casinopolis");
-var apuesta = prompt("Por favor, escribe tu apuesta");
 alert("Da clic en el primer dado para comenzar el juego");
 
 function showNewDice() {
